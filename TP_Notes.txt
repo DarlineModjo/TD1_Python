@@ -1,0 +1,41 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC+kQV6FE6CmUqxz6KsNYy2ORLtkZ5Nv7lwdjI/shqt+ darlinemodjo@gmail.com
+
+Partie Git ::::
+
+ssh-keygen -t ed25519 -C "darlinemodjo@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add /c/Users/33749/.ssh/id_ed25519
+
+cd /c/Users/33749/Documents/
+
+	git clone git@github.com:DarlineModjo/TD1_Python.git
+
+	git status
+	
+	ls
+
+	cd nom_dossier/ (puis créer en manuel un nveau fichier)
+
+		git status
+
+		git config --global user.email "you@example.com"
+		git config --global user.name "Your Name"
+
+		git pull 
+
+		git push
+
+		git add .
+
+		git status 	
+
+		git config --global user.email "you@example.com"
+		git config --global user.name "Your Name"
+
+		git commit 
+
+		git log
+		git push
+		
