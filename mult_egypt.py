@@ -1,3 +1,4 @@
+##
 def mult_egypt(n,p):
         resultat=0
         while n!=0:
