@@ -4,9 +4,9 @@ def mult_egypt(n,p):
             if n%2==1: 
                 resultat+=p
             n>>=1 
-            p<<=1
+            p=p+p
         return resultat
 
-var = mult_egypt(11,3)
+var = mult_egypt(5,3)
 print(var)
 
